@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
+  <link rel='stylesheet' href='index.css'>
+  <script type='text/javascript' src='index.js' defer></script>
+  <title>Interactive rating component</title>
+</head>
+
+<body>
+  <main class='container' role='main'>
+    <article class='card' id='card'>
+      <img class='icon-star' src='./images/icon-star.svg' alt='icon-star'>
+      <h1 class='title'>How did we do?</h1>
+      <p class='description'>
+        Please let us know how we did with your support request.
+        All feedback is appreciated to
+        help us improve our offering!
+      </p>
+      <section class='ratings-btns' id='btns'>
+        <a href='#' class='btn'>1</a>
+        <a href='#' class='btn'>2</a>
+        <a href='#' class='btn'>3</a>
+        <a href='#' class='btn'>4</a>
+        <a href='#' class='btn'>5</a>
+      </section>
+
+      <a href='#' class='submit' id='submit'>SUBMIT</a>
+    </article>
+
+    <article class='ty-card display' id='ty-card'>
+      <img class='ty-image' src='./images/illustration-thank-you.svg' alt='ty-illustration'>
+      <p class='your-rate'>You selected <span id='selected-rate'></span> out of 5</p>
+      <h1 class='ty-title'>Thank you!</h1>
+      <p class='ty-description'>
+        We appreciate you taking the time to give a rating.
+        If you ever need more support,
+        don't hesitate to get in touch!
+      </p>
+    </article>
+  </main>
+</body>
+
+</html>
